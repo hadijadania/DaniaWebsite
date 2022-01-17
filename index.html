@@ -1,0 +1,141 @@
+<html>  
+    <head>
+        <title>Homepage</title>
+
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="css.html/style.css">
+
+        <script>
+            function startTime() {
+              const today = new Date();
+              let h = today.getHours();
+              let m = today.getMinutes();
+              let s = today.getSeconds();
+              m = checkTime(m);
+              s = checkTime(s);
+              document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+              setTimeout(startTime, 1000);
+            }
+            
+            function checkTime(i) {
+              if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+              return i;
+            }
+            </script>
+
+            
+      
+
+        
+    </head>
+<body>
+
+    <p><marquee behaviour="" direction="" >THANK YOU FOR THE VISIT......SEE YOU AGAIN......THANK YOU FOR THE VISIT ....... SEE YOU AGAIN......THANK YOU FOR THE VISIT></marquee> 
+
+
+
+<div style="text-align: center;">
+
+<a href="index.html"class="w3-bar-item w3-button w3-hover-pink w3-border-right">Home</a>
+<a href="Biodata.html" class="w3-bar-item w3-button w3-hover-pink w3-border-right">Biodata</a>
+<a href="Contact.html" class="w3-bar-item w3-button w3-hover-pink  w3-border-right">Contact</a>
+<a href="Experience.html" class="w3-bar-item w3-button w3-hover-pink w3-border-right">Experience</a>
+<a href="Education.html" class="w3-bar-item w3-button w3-hover-pink w3-border-right">Education</a>
+<a href="Family.html" class="w3-bar-item w3-button w3-hover-pink w3-border-right">Family</a>
+<a href="Gallery.html" class="w3-bar-item w3-button w3-hover-pink w3-border-right">Gallery</a>
+
+   
+</div>
+	
+
+    <br>
+<div style="text-align: center;">
+
+    <!--inserting gif image-->
+    <img src="image/flowergif.webp" style="text-align: left;">
+   
+     
+    
+    <span class="w3-tag w3-jumbo w3-pale-blue">W</span> 
+    <span class="w3-tag w3-jumbo w3-pale-blue">E</span>
+    <span class="w3-tag w3-jumbo w3-pale-blue">L</span>
+    <span class="w3-tag w3-jumbo w3-pale-blue">C</span>
+    <span class="w3-tag w3-jumbo w3-pale-blue">O</span>
+    <span class="w3-tag w3-jumbo w3-pale-blue">M</span>
+    <span class="w3-tag w3-jumbo w3-pale-blue">E</span>
+
+    <!--inserting gif image-->
+    <img src="image/flowergif.webp" style="text-align: left;">
+    
+    
+</div>
+
+<h1 style="text-align: center;">
+    <span class="w3-tag w3-jumbo w3-pale-blue">T</span>
+    <span class="w3-tag w3-jumbo w3-pale-blue">O</span>
+</h1>
+    
+<br>
+
+ <p style="text-align: center; font-style: italic; font-size: 100%;">
+        <span class="w3-tag w3-jumbo w3-pale-yellow ">D</span>
+        <span class="w3-tag w3-jumbo w3-pale-yellow ">A</span>
+        <span class="w3-tag w3-jumbo w3-pale-yellow">N</span>
+        <span class="w3-tag w3-jumbo w3-pale-yellow">I</span>
+        <span class="w3-tag w3-jumbo w3-pale-yellow">A</span>
+        <span class="w3-tag w3-jumbo w3-pale-yellow ">'s</span>
+       
+        
+
+        <span class="w3-tag w3-xlarge w3-pale-yellow "></span>
+        <span class="w3-tag w3-jumbo w3-pale-yellow ">S</span>
+        <span class="w3-tag w3-jumbo w3-pale-yellow ">T</span>
+        <span class="w3-tag w3-jumbo w3-pale-yellow ">O</span>
+        <span class="w3-tag w3-jumbo w3-pale-yellow ">R</span>
+        <span class="w3-tag w3-jumbo w3-pale-yellow">Y</span>
+      
+</p> 
+
+<body onload="startTime()">
+    <div id="txt" style="color: rgb(68, 45, 45); font-style: oblique; font-size: 200%; position: absolute; left: 80%; "></div>
+
+<p>          
+    <!--Inserting audio-->
+    <audio controls autoplay>
+    <source src="audio/Troye Sivan - ANGEL BABY (Lyrics).mp3" type="audio/ogg">
+    <source src="audio/Troye Sivan - ANGEL BABY (Lyrics).mp3" type="audio/mpeg">
+                      
+    </audio>
+
+</p>
+
+<hr>  
+<br>     
+
+<div style="text-align: center;">
+
+  <!--insert image-->
+  <img src="image/myself.jpg" width="350px"  style="float: right;"> 
+
+  <img src="image/butterfly.gif" style="position: absolute; left: 30%; top: 110%;">
+  
+
+</div>
+
+<p>
+  <!--inserting video-->
+  <video height="450px" width="350px"  style="float:left;" controls>
+  <source src="video/myself.mp4" type="video/mp4">
+</p>
+</video>
+
+  </div>
+   
+    <div class="w3-panel w3-border-right">
+    <div style="text-align: center;color: salmon; font-size: 250%; background-color: blanchedalmond; width: 100%;padding: 0px; ">
+    <p class="w3-serif"><i>"Life Isnt About Finding Yourself...Life Is About Creating Yourself"</i>
+                 </div>
+                  
+          
+</body>
+</html>
